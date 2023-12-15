@@ -1,0 +1,44 @@
+:root {
+    --yellowButton: #FDC940;
+    --blueBackground: #D3E7ED;
+    --blueLow: #97C5D9;
+    --darkBlue: #234456;
+    --grayBackground: #EAE7E2;
+    --webBackground: #FAF8F2;
+    --whiteCards: #FFFFFF;
+  }
+  
+  .bg-warning{
+    background-color: var(--yellowButton);
+  }
+
+  .btn-warning{
+    color: var(--darkBlue);
+  }
+.rounded{
+    border-radius: 15px !important;
+}
+  .nav-link, .text-primary, li {
+    color: var(--darkBlue) !important;
+  }
+  .btn-primary ,.btn-info {
+    background-color: var(--darkBlue)!important;
+    
+  }
+  .btn-info , .text-info{
+    color: var(--darkBlue)!important;
+    
+  }
+  .btn-info , .bg-info{
+   
+    background-color: var(--blueLow)!important;
+  }
+
+  body{
+    background-color: var(--webBackground);
+  }
+ 
+ 
+
+
+  
